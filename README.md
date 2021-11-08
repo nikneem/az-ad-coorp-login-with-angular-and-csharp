@@ -1,2 +1,3 @@
-# az-ad-coorp-login-with-angular-and-csharp
-This is a demo project that allows you to configure login for your organization Azure Active Directory (AAD) with an Angular front-end and C# backend API's
+# Adding login to your software
+
+This repository is a demonstration on how to protect your API from external access. This demo uses Azure Active Directory and is configured to **only allow users from withing the organization**. The demo includes a c# project validating incoming tokens and an Angular front-end allowing users to log in.

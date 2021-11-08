@@ -1,0 +1,9 @@
+<h1>User Authenticated: {{isAuthenticated}}</h1>
+<div *ngIf="!isAuthenticated">
+<button (click)="login()">Log in</button>
+</div><div *ngIf="isAuthenticated">
+    <button (click)="backendcall()">Make the call</button>
+    </div>
+    <div class="response">
+        {{responseJson}}
+    </div>
